@@ -1,0 +1,14 @@
+Relative Layout
+O Relative Layout é o tipo de layout utilizado no Android para se posicionar os elementos em relação a outro. 
+Por exemplo, se temos um Text View e o desenvolvedor posicionar o botão a sua esquerda,
+ no XML pode-se fazer referência a esse para que o elemento de tela seja posicionado em um determinado lugar de acordo com sua posição.
+
+Layout linear
+LinearLayout é um grupo de exibições que alinha todos os filhos em uma única direção vertical ou horizontal.
+ Você pode especificar a direção do layout com o atributo android:orientation.
+Todos os filhos de um LinearLayout são empilhados um após o outro. 
+Portanto, uma lista vertical terá apenas um filho por linha, independentemente de sua largura, e uma lista horizontal terá altura 
+de apenas uma linha (a altura do filho mais alto, mais preenchimento). 
+Um LinearLayout respeita margens entre filhos e a gravidade (alinhamento à direita, no centro ou à esquerda) de cada filho.
+
+
